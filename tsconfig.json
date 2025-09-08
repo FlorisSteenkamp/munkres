@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "strict": true, 
+        "module": "esnext",
+        "target": "esnext",
+        "declaration": true,
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "outDir": "node",
+        "moduleResolution": "node",
+        "paths": {}
+    },
+    "include": [
+        "src/munkres.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

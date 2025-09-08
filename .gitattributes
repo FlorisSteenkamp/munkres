@@ -1,4 +1,2 @@
-*.js	ident
-*.txt	ident
-README	ident
-CHANGELOG	ident
+* linguist-vendored
+*.ts linguist-vendored=false
