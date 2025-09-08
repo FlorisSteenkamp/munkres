@@ -1,15 +1,12 @@
 Munkres implementation for Javascript
 ---------------------------------
 
-![Bower Version](https://img.shields.io/bower/v/munkres-js.svg?style=flat)
-[![NPM Version](https://img.shields.io/npm/v/munkres-js.svg?style=flat)](https://npmjs.org/package/munkres-js)
-[![NPM Downloads](https://img.shields.io/npm/dm/munkres-js.svg?style=flat)](https://npmjs.org/package/munkres-js)
-[![Build Status](https://travis-ci.org/addaleax/munkres-js.svg?style=flat&branch=master)](https://travis-ci.org/addaleax/munkres-js?branch=master)
-[![Coverage Status](https://coveralls.io/repos/addaleax/munkres-js/badge.svg?branch=master)](https://coveralls.io/r/addaleax/munkres-js?branch=master)
-[![Dependency Status](https://david-dm.org/addaleax/munkres-js.svg?style=flat)](https://david-dm.org/addaleax/munkres-js)
-[![devDependency Status](https://david-dm.org/addaleax/munkres-js/dev-status.svg?style=flat)](https://david-dm.org/addaleax/munkres-js#info=devDependencies)
+[![NPM Downloads](https://img.shields.io/npm/dm/munkres.svg?style=flat)](https://npmjs.org/package/munkres)
 
 ## Introduction
+
+Note: This is a modernized version (TypeScript + ESM modules) of the Munkres algorithm FORKED
+from [this repo](https://github.com/addaleax/munkres-js)
 
 The Munkres module provides an O(n³) implementation of the Munkres algorithm
 (also called the [Hungarian algorithm][] or the Kuhn-Munkres algorithm).
@@ -23,8 +20,8 @@ used more than once.
 
 ## Usage
 
-```js
-var munkres = require('munkres-js');
+```ts
+import { munkres } from 'munkres';
 
 munkres([
   [400, 150, 400],
